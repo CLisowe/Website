@@ -1,0 +1,42 @@
+
+#top-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 0);
+}
+#resume{
+background-color: blue;
+border: none;
+ height: 100%;   
+}
+#skills{
+    background-color: blue;
+    border: none;
+}
+#buttons{
+    background-color: blue;
+    border: none;
+    height: 100%;
+}
+#experiencebutton{
+    background-color: blue;
+    border: none;
+}
+
+#hobbies{
+    background-color: blue;
+    border: none;
+}
+
+h1{
+    color: blue;
+    font-weight: bold;
+}
+#main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url();
+    background-color: blue;
+}
