@@ -1,11 +1,14 @@
 
-#top-bar{
+header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    flex-shrink: 1;
     justify-content: space-evenly;
     background-color: rgb(255, 0, 0);
+    padding-bottom: 400px;
 }
+
 #resume{
 background-color: blue;
 border: none;
@@ -42,4 +45,19 @@ h1{
     background-size: cover;
     background-image: url();
     background-color: blue;
+}
+#sociallinks{
+    vertical-align: auto;
+
+    flex-direction: column;
+    position: relative;
+    float: right;
+    background-color: black;
+    z-index: 100;
+    height: 100%;
+}
+
+#linkedin{
+    width: 20px;
+    height: 20px;
 }
