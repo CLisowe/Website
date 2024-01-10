@@ -92,10 +92,43 @@ gap: 28px;
 #skillers{
     margin-left: 40px;
 }
-img{
-width: 256px;
-height: 256px;
+#img1{
+    height: 256px;
+    width: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+#img1 img{
+height: auto;
+width: 100%;
+}
+#img2{
+    height: 256px;
+    width: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#img2 img{
+height: 100%;
+width: auto;
+}
+#img3{
+    height: 256px;
+    width: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#img3 img{
+height: auto;
+width: 100%;
+}
+
 #skills{
  width: 655px;
 height: 480px;
@@ -167,7 +200,9 @@ padding-right: 40px;
     flex-shrink: 0;
     border-radius: 15px;
 background: #D9E7C1;
+
 }
+
 #hobbie2{
     grid-column: 2;
     grid-row: 1;
@@ -176,6 +211,14 @@ background: #D9E7C1;
     flex-shrink: 0;
     border-radius: 15px;
 background: #D9E7C1;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+#hobbie2 img{
+    width: 100%;
+    height: auto;
 }
 #hobbie3{
     grid-column: 1;
@@ -185,6 +228,14 @@ background: #D9E7C1;
     flex-shrink: 0;
     border-radius: 15px;
 background: #D9E7C1;
+display: flex;
+overflow: hidden;
+align-items: center;
+justify-content: center;
+}
+#hobbie3 img{
+    width:100%;
+    height: auto;
 }
 #hobbie4{
     grid-column: 2;
@@ -203,6 +254,14 @@ background: #D9E7C1;
     flex-shrink: 0;
     border-radius: 15px;
 background: #D9E7C1;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+#hobbielong img{
+    height: 100%;
+    width: auto;
 }
 #spacer{
     grid-column: span 3;
@@ -218,7 +277,14 @@ width: 389px;
 height: 256px;
     flex-shrink: 0;
     border-radius: 15px;
+display: flex;
+align-items: center;
+overflow:hidden;
 background: #D9E7C1;
+}
+#hobbiewide1 img{
+    width: 100%;
+    height: auto;
 }
 #hobbiewide2{
     grid-column: span 2;
@@ -228,7 +294,15 @@ background: #D9E7C1;
         flex-shrink: 0;
         border-radius: 15px;
     background: #D9E7C1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
     
+    }
+    #hobbiewide2 img{
+        width: 100%;
+        height: auto;
+
     }
 
 #contact{
@@ -258,6 +332,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: lowercase;
+text-decoration: none;
 }
 #insta{
     width: 128px;
@@ -296,6 +371,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: lowercase;
+text-decoration: none;
 }
 
 #spacer{
