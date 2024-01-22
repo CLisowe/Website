@@ -45,8 +45,10 @@ h2 {
   text-transform: lowercase;
 }
 .topbuttons {
+  display:flex;
   color: #d9e7c1;
   text-align: center;
+  align-items: center;
   font-family: Lato;
   font-size: 18px;
   font-style: normal;
@@ -54,10 +56,17 @@ h2 {
   line-height: normal;
   text-transform: lowercase;
   text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+  
 }
+
 .logo {
   width: 24px;
   height: 24px;
+ 
 }
 h1 {
   color: #d9e7c1;
@@ -79,6 +88,7 @@ p {
   font-weight: 700;
   line-height: normal;
   text-transform: lowercase;
+
 }
 #photos {
   width: 100%;
@@ -86,6 +96,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 28px;
+
 }
 #skillers {
   margin-left: 40px;
@@ -144,6 +155,7 @@ h3 {
   font-weight: 700;
   line-height: normal;
   text-transform: lowercase;
+
 }
 
 #skillbox {
@@ -376,13 +388,10 @@ footer {
 
 #spacer {
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 
-/* .fade{
-  opacity: 0;
-  transition: all 1s;
+.topbuttons:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
-.show{
-  opacity: 1;
-} */
