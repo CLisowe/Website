@@ -22,6 +22,7 @@ body {
   justify-content: space-evenly;
   gap: 292px;
   flex-wrap: nowrap;
+  /* transition: transform 0.3s ease-in-out; */
 }
 #topbar {
   width: 50%;
@@ -29,6 +30,14 @@ body {
   flex-shrink: 0;
   display: flex;
   justify-content: space-between;
+
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
+}
+#fulltop.hidden{
+  transform: translateY(-100%);
 }
 #logos {
   display: flex;
@@ -61,6 +70,24 @@ h2 {
   padding-right: 3px;
   border-radius: 5px;
   
+}
+
+.carsontag{
+  display:flex;
+  color: #d9e7c1;
+  text-align: center;
+  align-items: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+  text-decoration: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+  cursor: default;
 }
 
 .logo {
